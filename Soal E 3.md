@@ -1,0 +1,5 @@
+public void paint(image) { for (int x = 0; x \< this.widthInTiles; x++)
+{ for (int y = 0; y \< this.heightInTiles; y++) { final BufferedImage
+img = this.state.tiles[x][y]; if (img != null) { image.drawImage(img, x
+\* this.tileWidth, y \* this.tileHeight, null); System.out.print("\*");
+} System.out.print("="); } } } }
