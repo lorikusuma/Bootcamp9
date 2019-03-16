@@ -1,0 +1,6 @@
+//A. Categories 1, Product 1,2 Categories 2, Product 3,4 Categories 3 Product 5
+
+//B. query SQL
+SQL> id, category_name, products
+INSERT INTO nama_tabel('id', 'category_name', 'product' ) 
+VALUES('id', 'category_name', 'prodducts');

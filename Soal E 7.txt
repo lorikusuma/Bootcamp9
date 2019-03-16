@@ -1,0 +1,5 @@
+<td> <?php echo $data; ?> </td>
+
+SQL> id, category_name, products
+INSERT INTO nama_tabel('id', 'category_name', 'product' ) 
+VALUES('id', 'category_name', 'prodducts');
